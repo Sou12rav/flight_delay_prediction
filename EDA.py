@@ -9,7 +9,6 @@ try:
     df = pd.read_csv(csv_file_path)
 except FileNotFoundError:
     print(f"File not found at path: {csv_file_path}")
-    # Handle the missing file or provide appropriate feedback
 
 print("Dataset Info:\n", df.info()) #basic info
 
