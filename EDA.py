@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-csv_file_path = r'D:\project prediction of flight delay\Combined_Flights_2022.csv'
+csv_file_path = r'https://github.com/Sou12rav/flight_delay_prediction/blob/25fe9b82a6833413a8a1be572ab92df03ef1ad0d/example_dataset.csv'
 
 try:
     df = pd.read_csv(csv_file_path)
