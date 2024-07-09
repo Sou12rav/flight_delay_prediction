@@ -15,31 +15,6 @@ The objective of this project is to predict whether a flight will be delayed bas
 - **Deployment**: Deploying the best model using a web-based interface for real-time predictions.
 
 
-## Usage
-
-1. **Data Preprocessing**: Run the data preprocessing script to clean and prepare the dataset.
-
-```bash
-python preprocess_data.py
-```
-
-2. **Model Training**: Train the machine learning models using the preprocessed data.
-
-```bash
-python train_model.py
-```
-
-3. **Model Evaluation**: Evaluate the performance of the trained models.
-
-```bash
-python evaluate_model.py
-```
-
-4. **Model Deployment**: Deploy the best model using a web-based interface.
-
-```bash
-streamlit run app.py
-```
 
 ## Project Structure
 
